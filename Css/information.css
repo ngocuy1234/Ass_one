@@ -1,0 +1,75 @@
+/* -----BANNER----- */
+.banner-bag {
+    background: url(//bizweb.dktcdn.net/100/226/207/themes/552753/assets/bg-breadcrum.png?1611976401862) center center #4d4f4e;
+    height: 120px;
+}
+
+.banner_title {
+    text-align: center;
+    line-height: 120px;
+    color: var(--white-color--);
+}
+
+.banner_nav {
+    margin: 10px 110px;
+    color: var(--text-color--);
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner_nav i {
+    padding: 0px 10px;
+}
+
+.banner_nav a {
+    text-decoration: none;
+    color: var(--title-color--);
+}
+
+/* -----CONTENT----- */
+.section_infor {
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section_infor::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 44%;
+    width: 150px;
+    height: 5px;
+    background: linear-gradient(to left, #2260bf, #03bcca);
+}
+
+.project_list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin-bottom: 40px;
+}
+
+.img-bag {
+    overflow: hidden;
+}
+
+.project_list-item-img:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.infor_title {
+    padding: 5px 0px;
+    color: #444;
+}
+
+.infor_title:hover {
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+    color: #2260bf;
+}
+
+.infor_text {
+    color: var(--text-color--);
+}

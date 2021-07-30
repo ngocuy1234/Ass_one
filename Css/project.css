@@ -1,0 +1,130 @@
+/* -----BANNER----- */
+.banner-bag {
+    background: url(//bizweb.dktcdn.net/100/226/207/themes/552753/assets/bg-breadcrum.png?1611976401862) center center #4d4f4e;
+    height: 120px;
+}
+
+.banner_title {
+    text-align: center;
+    line-height: 120px;
+    color: var(--white-color--);
+}
+
+.banner_nav {
+    margin: 10px 110px;
+    color: var(--text-color--);
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner_nav i {
+    padding: 0px 10px;
+}
+
+.banner_nav a {
+    text-decoration: none;
+    color: var(--title-color--);
+}
+
+/* -----CONTENT----- */
+.btn_menu-item {
+    padding: 13px 20px;
+    border: 1px solid #ccc;
+    background-color: #ffff;
+    color: #444;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.btn_menu-item+.btn_menu-item {
+    margin-left: 20px;
+}
+
+.btn_menu-item:hover {
+    background-color: var(--title-color--);
+    color: #ffff;
+    transition: 0.2s ease-in-out;
+}
+
+.project_list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin-bottom: 20px;
+}
+
+.project_list-item-img:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.project_img-bag {
+    overflow: hidden;
+    position: relative;
+}
+
+.project_list-item-img {
+    width: 100%;
+}
+
+.project_img-bag:hover .product_infor {
+    transform: translateY(0);
+    animation-name: fadeIN;
+    animation-duration: 1s;
+    transition: all 1s ease-in-out;
+}
+
+.product_infor {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(150px);
+    text-align: center;
+    background: linear-gradient(to left, #2260bf, #03bcca);
+    transition: all 1s ease-in-out;
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    transition: all 1s ease-in-out;
+}
+
+.product_infor-price {
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.product_infor-title {
+    color: #ffff;
+    padding-bottom: 20px;
+}
+
+.btn_project {
+    margin: 30px 0px;
+    background-color: #ffff;
+}
+
+.btn_menu-item-sub {
+    background-color: #1858bc;
+    color: #ffff;
+}
+
+@keyframes fadeIN {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

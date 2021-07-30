@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/base.css">
+    <link rel="stylesheet" href="Css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="login_bag">
+            <div class="form_bag">
+                <div class="wrap">
+                    <div class="form_heading-bag">
+                        <h3 class="form_heading-main">Đăng ký</h3>
+                        <h4 class="form_heading-sub"><a href="login.html">Đăng nhập</a></h4>
+                    </div>
+                    <form action="/ASS_PHP/php/classes/register.php" method="POST" class="form" id="from">
+                        <div class="input_bag">
+                            <input class="input_bag-item" type="text" id="username" name="username"
+                                placeholder="Tên đăng nhập">
+                            <span></span>
+                        </div>
+                        <div class="input_bag">
+                            <input class="input_bag-item" type="email" id="email" name="email" placeholder="Email">
+                            <span></span>
+                        </div>
+                        <div class="input_bag">
+                            <input class="input_bag-item" type="password" id="password" name="password"
+                                placeholder="Mật khẩu của bạn">
+                            <span></span>
+                        </div>
+                        <div class="input_bag">
+                            <input class="input_bag-item" type="date" id="date" name="date" placeholder="Ngày đăng ký">
+                            <span></span>
+                        </div>
+                        <div class="input_radio-bag">
+                            <div class="radio_bag">
+                                <input type="radio" name="product" checked="checked" value="220">
+                                <label for="">Tư vấn website</label>
+                            </div>
+                            <div class="radio_bag">
+                                <input type="radio" name="product" value="220">
+                                <label for="">Tư vấn maketing</label>
+                            </div>
+                            <div class="radio_bag">
+                                <input type="radio" name="product" value="220">
+                                <label for="">Đăng ký hosting</label>
+                            </div>
+                        </div>
+                        <p class="form_text">Hãy nhập đầy đủ thông tin để chúng tôi cấp tài khoản cho bạn <a
+                                href="introduce.html">Creative</a>
+                        </p>
+                        <div class="btn_bag">
+                            <button class="btn btn-back"><a href="home.html">Trở lại</a></button>
+                            <button class="btn btn-login">Đăng ký</button>
+                        </div>
+                    </form>
+                    <ul class="social_list">
+                        <li class="social_list-item face_book-style"><i class="fab fa-facebook-square"></i><a
+                                href="https://www.facebook.com/">Kết nối với
+                                facebook</a></li>
+                        <li class="social_list-item google-style"><i class="fab fa-google-plus-g"></i><a href="">Kết
+                                nối với
+                                google</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/form.js"></script>
+</body>
+
+</html>

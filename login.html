@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/base.css">
+    <link rel="stylesheet" href="Css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="login_bag">
+            <div class="form_bag">
+                <div class="wrap">
+                    <div class="form_heading-bag">
+                        <h3 class="form_heading-main">Đăng nhập</h3>
+                        <h4 class="form_heading-sub"><a href="register.html">Đăng ký</a></h4>
+                    </div>
+                    <form action="/ASS_PHP/php/classes/login.php" method="POST" class="form">
+                        <div class="input_bag">
+                            <input class="input_bag-item" type="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="input_bag">
+                            <input class="input_bag-item" type="password" name="password"
+                                placeholder="Mật khẩu của bạn">
+                        </div>
+                        <p class="form_text">Bạn hãy đăng ngập tải khoản của mình để xác minh danh tính <a
+                                href="introduce.html">Creative</a>
+                        </p>
+                        <div class="btn_bag">
+                            <button class="btn btn-back"><a href="home.html">Trở lại</a></button>
+                            <button class="btn btn-login">Đăng nhập</button>
+                        </div>
+                    </form>
+                    <ul class="social_list">
+                        <li class="social_list-item face_book-style"><i class="fab fa-facebook-square"></i><a
+                                href="https://www.facebook.com/">Kết nối với
+                                facebook</a></li>
+                        <li class="social_list-item google-style"><i class="fab fa-google-plus-g"></i><a href="">Kết
+                                nối với
+                                google</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

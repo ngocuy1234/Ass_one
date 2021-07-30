@@ -1,0 +1,102 @@
+/* -----BANNER----- */
+.banner-bag {
+    background: url(//bizweb.dktcdn.net/100/226/207/themes/552753/assets/bg-breadcrum.png?1611976401862) center center #4d4f4e;
+    height: 120px;
+}
+
+.banner_title {
+    text-align: center;
+    line-height: 120px;
+    color: var(--white-color--);
+}
+
+.banner_nav {
+    margin: 10px 110px 0px 110px;
+    color: var(--text-color--);
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner_nav i {
+    padding: 0px 10px;
+}
+
+.banner_nav a {
+    text-decoration: none;
+    color: var(--title-color--);
+}
+
+/* -----CONTENT----- */
+.content {
+    background-color: #f7f8f9;
+}
+
+.content_bag {
+    padding-left: 110px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.content_form-bag {
+    padding: 40px 0px;
+}
+
+.content_form-title {
+    color: #555;
+}
+
+.input_bag {
+    padding: 10px 0px;
+}
+
+.input_bag .rectangle {
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #f7f8f9;
+    outline: none;
+}
+
+.input_checkbox {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check_box-bag label {
+    color: var(--text-color--);
+}
+
+span {
+    color: red;
+}
+
+.btn_center {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.btn_form {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid #ccc;
+    background-color: #f7f8f9;
+    color: var(--text-color--);
+    margin-top: 30px;
+}
+
+.btn_form:hover {
+    background-color: #1858bc;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* ------------------- */
+.footer-sub {
+    margin-top: 0px;
+}
